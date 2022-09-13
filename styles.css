@@ -1,40 +1,55 @@
-h1{
+h1 {
     text-align: center;
     background-color: #38bdf8;
     margin-bottom: 4rem;
 }
-body{
+
+body {
     background-color: #bbf7d0;
 }
-#txt-input{
-    border :0.2rem solid #38bdf8;
-    display: flex;
-    justify-content: center;
-    background-color:#cffafe;
-    width: 40%;
-    margin: auto;
-}
-#btn-translate{
+
+#btn-translate {
     display: block;
     border-radius: 0.6rem;
     padding: 1rem;
-    background-color:#cffafe ;
+    background-color: #cffafe;
     border-color: transparent;
     color: #38bdf8;
 }
-button{
+
+button {
     margin: auto;
     margin-top: 3rem;
 }
-#output{
-    border :0.2rem solid #38bdf8;
+
+#output {
+    border: 0.2rem solid #38bdf8;
     display: flex;
     justify-content: center;
-    background-color:#cffafe;
+    background-color: #cffafe;
+    margin: auto;
+    width: 40%;
+
+
+
+    height: 10vh;
+
+
+    padding: 1rem;
+
+
+}
+
+#txt-input {
+    border: 0.2rem solid #38bdf8;
+    display: flex;
+    justify-content: center;
+    background-color: #cffafe;
     width: 40%;
     margin: auto;
 }
-p{
+
+p {
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 2rem;
